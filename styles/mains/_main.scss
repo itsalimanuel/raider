@@ -1,0 +1,34 @@
+@import "./variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// fonts
+@font-face {
+  font-family: "Bigilla";
+  src: url("fonts/BigillaBold.woff2") format("woff2"),
+    url("fonts/BigillaBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bigilla";
+  src: url("fonts/BigillaRegular.woff2") format("woff2"),
+    url("fonts/BigillaRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: $background-main;
+  font-family: "Bigilla";
+}
+
+a {
+  color: #fff;
+}
